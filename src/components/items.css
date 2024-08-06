@@ -1,0 +1,28 @@
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .item-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .item-name {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+  }
+  
+  .item-price {
+    font-size: 1em;
+    color: #888;
+  }
+  
